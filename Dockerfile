@@ -45,5 +45,5 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["python3", "manage.py", "runserver", "65.1.131.115:8000"]
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
 
